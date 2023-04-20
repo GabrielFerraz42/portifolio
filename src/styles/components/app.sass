@@ -1,0 +1,15 @@
+@use "../varibles"
+
+.App
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row-reverse
+    padding: 3rem
+    gap: 2rem
+    
+    @media (max-width: 1024px)
+        flex-direction: column-reverse
+        
+    @media (max-width: 768px)
+        padding: 1rem    
+    

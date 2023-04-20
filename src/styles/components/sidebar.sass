@@ -1,0 +1,36 @@
+@use "../varibles"
+@use '../mixins'
+
+.sidebar
+    display: flex
+    flex: 1 1 0
+    align-items: center
+    flex-direction: column
+    text-align: center
+    position: relative
+    padding: 3rem 0
+    background-color: varibles.$bg-color
+    border-radius: varibles.$container-border-radius
+    gap: 5px
+
+    img 
+        max-width: 70%
+        border-bottom: 1px solid #444
+        border-radius: 50%
+        margin-bottom: 1rem
+
+    .title 
+        color: varibles.$text-color-secondary
+        background-color: varibles.$bg-color-secondary
+        border-radius: varibles.$card-border-radius
+        padding: .8rem 1.2rem
+
+    .btn
+        @include mixins.btn
+        margin-bottom: 8px
+
+        
+
+
+
+  

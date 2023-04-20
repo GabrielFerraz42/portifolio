@@ -1,0 +1,23 @@
+@use '../varibles'
+@use '../mixins'
+
+.socialNetworks
+    @include mixins.center
+    gap: 1rem
+    margin: 1rem 0
+
+    .social-btn
+        padding: .6rem
+        background-color: varibles.$bg-color-secondary
+        border-radius: varibles.$card-border-radius
+        font-size: 1.3rem
+        color: #8417a0
+        @include mixins.center
+
+    :hover
+        background: varibles.$gradient
+        > svg
+            color: varibles.$text-color
+
+        
+            
