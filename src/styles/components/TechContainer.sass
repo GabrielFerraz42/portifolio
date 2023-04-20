@@ -14,14 +14,17 @@
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
-    
+
         .technology-card
             @include mixins.center
-            gap: 1rem
+            flex-direction: column
             padding: 1rem
             border: 1px solid #333
             width: 45%
             border-radius: varibles.$card-border-radius
+            @media (min-width: 768px)  
+                flex-direction: row  
+                gap: 1rem
 
             h3
                 color: varibles.$text-color
