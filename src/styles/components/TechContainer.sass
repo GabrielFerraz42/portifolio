@@ -13,7 +13,9 @@
     .technologies-grid
         display: flex
         flex-wrap: wrap
-        gap: 1.5rem
+        gap: 16px
+        @media (min-width: 320px)
+            gap: 1.5rem
 
         .technology-card
             @include mixins.center
