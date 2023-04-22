@@ -4,16 +4,17 @@ export const AboutContainer = () => {
       <h2> About:</h2>
       <h3>EN-US</h3>
       <p>
-        Curios by nature, someone that's always search for learning and
+        Curious by nature, someone who is always searching for learning and
         improvement.
         <br />
-        Looking not only solve problems but also understand the entire
-        environment that I am inserted. Communication and proactivity are
-        essential in my day-a-day.
-        <br /> Searching an opportunity like junior developer to improve my
+        Looking not only to solve problems but also to understand the entire
+        environment that I am inserted in. Communication and proactivity are
+        essential in my routine.
+        <br />
+        Searching for an opportunity as a Junior Developer to improve my
         knowledge.
         <br />
-        Basic knowledge in Javascript, React, Node.js, Sass, VTEX e Git.
+        Knowledge in Javascript, React, Node.js, Sass, VTEX and Git.
       </p>
       <h3>PT-BR</h3>
       <p>
@@ -27,7 +28,7 @@ export const AboutContainer = () => {
         Estou buscando uma oportunidade como desenvolvedor júnior para aprimorar
         meu conhecimento.
         <br />
-        Conhecimento básico em Javascript, React, Node.js, Sass, VTEX e Git.
+        Conhecimento em Javascript, React, Node.js, Sass, VTEX e Git.
       </p>
     </div>
   );
